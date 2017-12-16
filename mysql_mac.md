@@ -10,7 +10,7 @@ mysql.server start
 ## Setup the database the first time
 mysql -uroot 
 
-SET PASSWORD FOR 'root'@'localhost' = 'mylockerpass'
+SET PASSWORD FOR 'root'@'localhost' = 'mylockerpass';
 
 create database mylocker;
 
