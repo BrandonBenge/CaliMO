@@ -1,8 +1,11 @@
 # Managing mysql
 
 ## Starting mysql on mac
-which mysql.server  #This will show you where the server commands are
-mysql.server start  #This will start your mysql instance
+### This will show you where the server commands are
+which mysql.server  
+
+### This will start your mysql instance
+mysql.server start  
 
 ## Setup the database the first time
 mysql -uroot 
