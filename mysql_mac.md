@@ -17,3 +17,5 @@ create database mylocker;
 use mylocker;
 
 CREATE USER 'mylocker_app'@'localhost' IDENTIFIED BY 'mylockerpass_app';
+
+GRANT ALL ON mylocker.* TO 'mylocker_app'@'localhost';
